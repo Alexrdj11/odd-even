@@ -1,0 +1,12 @@
+#program to find the largest number out of three numbers
+#logic --if 1st is greater than second then compare 1st with third
+#else if 2nd is greater then compare second with third
+a=int(input("Enter the first number:"))
+b=int(input("Enter the second number:"))
+c=int(input("Enter the third number:"))
+if a > b and a > c :
+    print("The first number",a," is greater ")
+elif a < b and b > c :
+    print("the second number",b ,"is greater ")
+else :
+    print("The third number",c,"is greater")
